@@ -1,6 +1,6 @@
 // const reduxLogger = require('redux-logger');
-const cakeReducer = require('../features/cake/cakeSlice');
 const userReducer = require('../features/user/userSlice');
+const cakeReducer = require('../features/cake/cakeSlice');
 const configureStore = require('@reduxjs/toolkit').configureStore;
 const icecreamReducer = require('../features/icecream/icecreamSlice');
 
